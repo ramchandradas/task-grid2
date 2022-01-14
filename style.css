@@ -1,0 +1,40 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+#box{
+    background: rgb(94, 94, 153);
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+background: white;
+}
+
+
+#display {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.buttons {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-size: 25px;
+    
+}
+.buttons p{
+font-size: 10px;
+margin-top: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.button1{
+    background: green;
+}
