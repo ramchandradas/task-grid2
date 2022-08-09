@@ -1,40 +1,54 @@
-*{
-    margin: 20px;
-    padding: 0;
+.container{
+background: #FF4DA5;
+margin: 10PX 0;
+padding: 90PX 0;
 }
-#box{
-    background: rgb(94, 94, 153);
+.container1{
+    display:grid;
+    grid-template-columns: 900px auto ;
+
 }
-.container {
-    max-width: 400px;
-    margin: 10vh auto 0 auto;
-background: white;
+.item0{color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-
-#display {
-    text-align: center;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-    margin-top: 10px;
+.item1{
+    background: #FF037E;   
+    padding: 0px 0px 200px 0px;
+    border-right: 9px solid white;
+    height: 30px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 700;
+display: flex;    
+/* align-items: center; */
+justify-content: center;
 }
-.buttons {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr ;
-    font-size: 25px;
-    
+.item4{
+    background: rgb(133, 133, 13);
+    color: white;
+    margin-top: -80px;
+    border: 7px solid white;
+    display: flex;    
+align-items: center;
+justify-content: center;
 }
-.buttons p{
-font-size: 10px;
-margin-top: 5px;
+.item2{
+    background: #8b0144;   
+    padding: 0 0 90px 0; 
+    color:white;
+     display: flex;    
+    justify-content: center;;
 }
-.button:hover{
-    cursor: pointer;
-    background-color: aqua;
-}
-.button1{
-    background: green;
+.container2{
+    background: #802755;
+    color: white;
+margin: 10PX 0;
+padding: 40PX 0;
+display:flex;
+justify-content: center;
+align-items: center;
 }
