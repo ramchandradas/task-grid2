@@ -1,54 +1,58 @@
-.container{
-background: #FF4DA5;
-margin: 10PX 0;
-padding: 90PX 0;
-}
-.container1{
-    display:grid;
-    grid-template-columns: 900px auto ;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
 
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
 }
-.item0{color: white;
+h1{
+    color: white;
+    font-weight: 200;
+    font-size: 45px;
+    margin: 80px 0 50px 0;
+}
+ .logo{
+    color: red;
+    
+}
+.header{
+    margin: 15px 0px 15px 150px;
+}
+.main{
+    background: #E60000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 220px 0 0;
+}
+.heading{
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 135px;
+}
+.container{
+    background: #56100F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 100px;
+    /* width: 80%; */
+    
+}
+
+.heading2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding-right: 55px;
 
 }
 
-.item1{
-    background: #FF037E;   
-    padding: 0px 0px 200px 0px;
-    border-right: 9px solid white;
-    height: 30px;
-    color: wheat;
-    font-size: 15px;
-    font-weight: 700;
-display: flex;    
-/* align-items: center; */
-justify-content: center;
-}
-.item4{
-    background: rgb(133, 133, 13);
+p{
     color: white;
-    margin-top: -80px;
-    border: 7px solid white;
-    display: flex;    
-align-items: center;
-justify-content: center;
-}
-.item2{
-    background: #8b0144;   
-    padding: 0 0 90px 0; 
-    color:white;
-     display: flex;    
-    justify-content: center;;
-}
-.container2{
-    background: #802755;
-    color: white;
-margin: 10PX 0;
-padding: 40PX 0;
-display:flex;
-justify-content: center;
-align-items: center;
+    font-size: 10px;
+    font-weight: 10;
+    padding-bottom: 10px;
+    width: 93%;
 }
